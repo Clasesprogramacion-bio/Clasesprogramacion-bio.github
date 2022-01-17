@@ -18,7 +18,9 @@ avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/je
 # Includes an icon in the footer for each username you enter
 footer-links:
   dribbble:
-  email: wilson.hoyos@udea.edu.co;airon.ruda@udea.edu.co
+  email: wilson.hoyos@udea.edu.co
+  email: airon.ruda@udea.edu.co
+  email: alexander.garciac@udea.edu.co
   facebook:
   flickr:
   github: Clasesprogramacion-bio
