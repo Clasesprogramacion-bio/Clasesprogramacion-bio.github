@@ -1,4 +1,4 @@
 ---
 layout: post
-title: PRIMERA CLASE
+title: SEGUNDA CLASE
 ---
