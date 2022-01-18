@@ -1,6 +1,6 @@
 ---
 layout: post
-title: PRIMERA CLASE
+title: CUARTA CLASE
 ---
 ## Recuento de la clase pasada
 En esta clase retomamos el análisis de las relaciones entre datos que se trabajan en el ejercicio propuesto de *Base de datos de películas*, analizando el tipo de variable para cada caso y haciendo un recuento de los tipos de variables que existen en programación, así como su almacenamiento en memoria.
