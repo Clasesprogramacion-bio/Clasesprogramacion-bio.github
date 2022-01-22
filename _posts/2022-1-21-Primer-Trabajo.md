@@ -12,7 +12,11 @@ La pandemia declarada por la COVID-19 ha acelerado la transición a modalidades 
 Un logro de esto es la telemedicina que, si bien data desde hace casi un siglo (las primeras consultas médicas realizadas por vía telefónica) [1], es cada día más relevante debido a la agilidad, comodidad, ahorro en tiempo y dinero que supone para los usuarios y, principalmente, la cobertura de este servicio que puede extenderse a zonas periféricas de reducido e incluso inexistente acceso a la medicina por otros medios haciéndose hincapié en su necesidad para algunos países en vía de desarrollo que carecen de la infraestructura y cultura necesaria para llevarla a cabo [2]. 
 
 El presente trabajo pretende por medio de software crear una plataforma que permita, en una fase inicial, el agendamiento y seguimiento de citas médicas que busca beneficiar a los usuarios del sistema médico tanto en su rol de practicantes como de pacientes a fin de facilitar la gestión de información.
-___
+
+
+---------------------------------------
+
+
 ## METODOLOGÍA:
 Inicialmente, y a modo de apoyo, se diseñará un boceto inicial que indique la relación existente entre los datos que se manejarán; esto facilitará su posterior configuración en el software gestor de bases de datos MySQL.
 
@@ -22,7 +26,12 @@ se recopilará nombre, apellido y, según el motivo de la consulta o remisión p
 espacio y el tiempo en que tendrá lugar según sea el caso; del médico se considerará nombre, apellido y especialidad que posee; el hospital a su vez poseerá su nivel y la 
 dirección en la que se ubica si se dará de forma presencial o de lo contrario se indicará que es virtual junto con el enlace de acceso, esto a fin de informar al usuario a 
 dónde deberá remitirse para ser atendido.
-___
+
+
+---------------------------------------
+
+
+
 ## Diccionario de datos 
 En el diagrama se observan las entidades y sus respectivas relaciones que se manejarán en la base de datos según el equipo de trabajo lo consideró necesario:
 
@@ -153,14 +162,24 @@ Esta tabla describe la información compartida entre la tabla de médico y la ta
 	
 	
 **ID hospital:** Índice del hospital
-___
+
+
+---------------------------------------
+
+
+
 ## Conclusiones:
 ⋅⋅* Para poder realizar una base de datos óptima, es necesario tener claro los conceptos que se derivan de los datos que se manejarán, teniendo un buen nivel de manejo del área
 al que se apunta, es más fácil definir las entidades y las relaciones que existen entre estas.
 ⋅⋅* Con un correcto esquema de diseño previo de la base de datos, es más fácil entrar en materia de construcción en Software y también es fácil luego la manipulación de los datos
 en la programación del filtrado, búsqueda y alimentación de la información.
 ⋅⋅* La digitalización de la información facilita su manipulación, además de brindar seguridad y estabilidad difícilmente lograda con el archivo de recursos físicos.
-___
+
+
+---------------------------------------
+
+
+
 ## Referencias:
 ⋅⋅⋅[1] https://clinic-cloud.com/blog/historia-de-la-telemedicina/
 ⋅⋅⋅[2] https://larepublica.es/2020/09/04/la-importancia-de-la-telemedicina-en-nuestros-dias/
