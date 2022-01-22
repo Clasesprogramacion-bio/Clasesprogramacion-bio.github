@@ -36,7 +36,7 @@ dónde deberá remitirse para ser atendido.
 En el diagrama se observan las entidades y sus respectivas relaciones que se manejarán en la base de datos según el equipo de trabajo lo consideró necesario:
 
 
-![Diagrama](images/diag.jpeg)
+![Diagrama](images/diag.jpg)
 
 
 Con el fin de conocer los componente del proceso, a continuación se hará una breve descripción de los mismos:
