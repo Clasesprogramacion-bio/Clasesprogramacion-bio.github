@@ -181,6 +181,8 @@ en la programación del filtrado, búsqueda y alimentación de la información.
 
 
 ## Referencias:
-: [1] https://clinic-cloud.com/blog/historia-de-la-telemedicina/
-: [2] https://larepublica.es/2020/09/04/la-importancia-de-la-telemedicina-en-nuestros-dias/
+[1] https://clinic-cloud.com/blog/historia-de-la-telemedicina/
+
+
+[2] https://larepublica.es/2020/09/04/la-importancia-de-la-telemedicina-en-nuestros-dias/
 
