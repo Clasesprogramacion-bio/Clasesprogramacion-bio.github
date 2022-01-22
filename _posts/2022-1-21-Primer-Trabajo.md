@@ -38,6 +38,8 @@ En el diagrama se observan las entidades y sus respectivas relaciones que se man
 
 ![diag.jpg](https://github.com/Clasesprogramacion-bio/Clasesprogramacion-bio.github.io/blob/e0fe78095b5a6a5ae3ead589f729b3e4fbbf1032/images/diag.jpg)
 
+<p>An image: <img src="images/diag.jpg" alt="gras" /></p>
+
 
 Con el fin de conocer los componente del proceso, a continuación se hará una breve descripción de los mismos:
 ### Entidades
@@ -101,7 +103,7 @@ Esta tabla contiene información clave para el tratamiento que deba seguir el pa
 **Descripción:** Prescripción médica en donde indica medicamentos, dosis y frecuencia de administración que el paciente debe seguir.
 	
 
-#### <span style="color: red"> Medicamento{: style="color: red"} </span>
+#### <span style="color: red"> Medicamento </span>
 Esta tabla contendrá información sobre el medicamento que deberá tomar el paciente acorde a la prescripción que le fue dada
 
 
