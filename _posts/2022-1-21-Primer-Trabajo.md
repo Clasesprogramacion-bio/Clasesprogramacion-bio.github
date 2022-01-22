@@ -41,7 +41,7 @@ En el diagrama se observan las entidades y sus respectivas relaciones que se man
 
 Con el fin de conocer los componente del proceso, a continuación se hará una breve descripción de los mismos:
 ### Entidades
-#### Paciente
+#### <span style="color: red"> Paciente </span>
 Esta tabla contiene la información relevante que será tomada del paciente.
 
 
@@ -60,7 +60,7 @@ Esta tabla contiene la información relevante que será tomada del paciente.
 **ID Cita:** Identificación de la cita 
 
 
-#### Cita
+#### <span style="color: red"> Cita </span>
 Esta tabla contendrá información relevante de la cita que el paciente tendrá 
 
 
@@ -88,7 +88,7 @@ Esta tabla contendrá información relevante de la cita que el paciente tendrá
 **Costo:**  Depósito que deberá cancelar el paciente 
 	
 
-#### Prescripción
+#### <span style="color: red"> Prescripción </span>
 Esta tabla contiene información clave para el tratamiento que deba seguir el paciente. 
 
 
@@ -101,7 +101,7 @@ Esta tabla contiene información clave para el tratamiento que deba seguir el pa
 **Descripción:** Prescripción médica en donde indica medicamentos, dosis y frecuencia de administración que el paciente debe seguir.
 	
 
-#### Medicamento{: style="color: red"}
+#### <span style="color: red"> Medicamento{: style="color: red"} </span>
 Esta tabla contendrá información sobre el medicamento que deberá tomar el paciente acorde a la prescripción que le fue dada
 
 
@@ -131,7 +131,7 @@ Esta tabla contiene información relevante del médico que atendió la cita de u
 **Especialidad:** Área de enfoque clínico del médico
 	
 	
-#### Hospital
+#### <span style="color: red"> Hospital </span>
 Esta tabla recoge los datos principales del lugar donde se llevará a cabo la consulta médica
 	
 	
@@ -144,7 +144,7 @@ Esta tabla recoge los datos principales del lugar donde se llevará a cabo la co
 **Dirección:** Ubicación exacta del ente donde se llevará a cabo la cita médica
 
 ### Relaciones
-#### Prescripción-medicamento
+#### <span style="color: red"> Prescripción-medicamento </span>
 Esta tabla describe la información compartida entre la tabla de prescripción y la de medicamento.
 	
 	
@@ -154,7 +154,7 @@ Esta tabla describe la información compartida entre la tabla de prescripción y
 **ID medicamento:** Identificador de los medicamentos que se incluyen en la prescripción.
 
 
-#### Médico-hospital
+#### <span style="color: red"> Médico-hospital </span>
 Esta tabla describe la información compartida entre la tabla de médico y la tabla hospital. 
 	
 	
