@@ -42,7 +42,7 @@ En el diagrama se observan las entidades y sus respectivas relaciones que se man
 
 
 Con el fin de conocer los componente del proceso, a continuación se hará una breve descripción de los mismos:
-### Entidades
+### <span style="color: green"> Entidades </span>
 #### <span style="color: red"> Paciente </span>
 Esta tabla contiene la información relevante que será tomada del paciente.
 
@@ -145,7 +145,7 @@ Esta tabla recoge los datos principales del lugar donde se llevará a cabo la co
 	
 **Dirección:** Ubicación exacta del ente donde se llevará a cabo la cita médica
 
-### Relaciones
+### <span style="color: green"> Relaciones </span>
 #### <span style="color: red"> Prescripción-medicamento </span>
 Esta tabla describe la información compartida entre la tabla de prescripción y la de medicamento.
 	
