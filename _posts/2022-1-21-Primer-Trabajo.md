@@ -101,7 +101,7 @@ Esta tabla contiene información clave para el tratamiento que deba seguir el pa
 **Descripción:** Prescripción médica en donde indica medicamentos, dosis y frecuencia de administración que el paciente debe seguir.
 	
 
-#### Medicamento
+#### Medicamento{: style="color: red"}
 Esta tabla contendrá información sobre el medicamento que deberá tomar el paciente acorde a la prescripción que le fue dada
 
 
@@ -112,7 +112,7 @@ Esta tabla contendrá información sobre el medicamento que deberá tomar el pac
 **Nombre:** Nombre mediante el cual pueda ser adquirido en farmacias u hospitales. 
 	
 	
-<span style="color: red"> #### Médico </span>.
+#### <span style="color: red"> Médico </span>.
 Esta tabla contiene información relevante del médico que atendió la cita de un paciente y que posteriormente realizará una prescripción médica.
 	
 	
