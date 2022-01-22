@@ -25,125 +25,134 @@ dónde deberá remitirse para ser atendido.
 ___
 ## Diccionario de datos 
 En el diagrama se observan las entidades y sus respectivas relaciones que se manejarán en la base de datos según el equipo de trabajo lo consideró necesario:
+
+
 ![Diagrama](https://github.com/Clasesprogramacion-bio/Clasesprogramacion-bio.github.io/tree/master/images/diag.jpeg "Diagrama de identidades y relaciones")
+
+
 Con el fin de conocer los componente del proceso, a continuación se hará una breve descripción de los mismos:
 ### Entidades
 #### Paciente
 Esta tabla contiene la información relevante que será tomada del paciente.
 
 
-	**ID:** Identificación única y propia con la que se distinguirá de otros pacientes
+**ID:** Identificación única y propia con la que se distinguirá de otros pacientes
 	
 	
-	**Nombre:** Nombre del pacientes
+**Nombre:** Nombre del pacientes
 	
 	
-	**Apellido:**  Apellido del paciente
+**Apellido:**  Apellido del paciente
 	
 	
-	**ID Medico:** Identificación del médico al que será adscrito
+**ID Medico:** Identificación del médico al que será adscrito
 	
 	
-	**ID Cita:** Identificación de la cita 
+**ID Cita:** Identificación de la cita 
 
 
 #### Cita
 Esta tabla contendrá información relevante de la cita que el paciente tendrá 
 
 
-	**ID:** Individualización de cita para seguimiento posterior en caso de que sea necesario.  
+**ID:** Individualización de cita para seguimiento posterior en caso de que sea necesario.  
 	
 	
-	**ID Paciente:** Paciente a quien fue agendada la cita
+**ID Paciente:** Paciente a quien fue agendada la cita
 	
 	
-	**ID Medico:**  Médico que atenderá la cita
+**ID Medico:**  Médico que atenderá la cita
 	
 	
-	**Estado:** Indica la vigencia de la cita al momento de la consulta
+**Estado:** Indica la vigencia de la cita al momento de la consulta
 	
 	
-	**Fecha:** Fecha en que se llevará a cabo la cita 
+**Fecha:** Fecha en que se llevará a cabo la cita 
 	
 	
-	**Hora:** Hora del día en que fue agendada la cita
+**Hora:** Hora del día en que fue agendada la cita
 	
 	
-	**ID Hospital:** Hospital en el que se llevará a cabo la cita agendada 
+**ID Hospital:** Hospital en el que se llevará a cabo la cita agendada 
 	
 	
-	**Costo:**  Depósito que deberá cancelar el paciente 
+**Costo:**  Depósito que deberá cancelar el paciente 
 	
 
 #### Prescripción
 Esta tabla contiene información clave para el tratamiento que deba seguir el paciente. 
 
 
-	**ID:** Identificación de prescripción que fue dada a un paciente, en una cita específica. 
+**ID:** Identificación de prescripción que fue dada a un paciente, en una cita específica. 
 	
 	
-	**Posología:** Cuidados y recomendaciones que el paciente deberá seguir para su pronta recuperación
+**Posología:** Cuidados y recomendaciones que el paciente deberá seguir para su pronta recuperación
 	
 	
-	**Descripción:** Prescripción médica en donde indica medicamentos, dosis y frecuencia de administración que el paciente debe seguir.
+**Descripción:** Prescripción médica en donde indica medicamentos, dosis y frecuencia de administración que el paciente debe seguir.
 	
 
 #### Medicamento
 Esta tabla contendrá información sobre el medicamento que deberá tomar el paciente acorde a la prescripción que le fue dada
-	**ID:** Identificación del medicamento.
+
+
+**ID:** Identificación del medicamento.
 	
 	
-	**Nombre:** Nombre mediante el cual pueda ser adquirido en farmacias u hospitales. 
+
+**Nombre:** Nombre mediante el cual pueda ser adquirido en farmacias u hospitales. 
 	
 	
 #### Médico
 Esta tabla contiene información relevante del médico que atendió la cita de un paciente y que posteriormente realizará una prescripción médica.
 	
 	
-	**ID:** Clave primaria que distingue al profesional médico que atenderá la cita
+**ID:** Clave primaria que distingue al profesional médico que atenderá la cita
 	
 	
-	**Nombre:** Nombre del médico
+**Nombre:** Nombre del médico
 	
 	
-	**Apellido:** Apellido del médico
+**Apellido:** Apellido del médico
 	
 	
-	**ID Cita:** Identificador de las citas que estará atendiendo el médico
+**ID Cita:** Identificador de las citas que estará atendiendo el médico
 	
 	
-	**Especialidad:** Área de enfoque clínico del médico
+**Especialidad:** Área de enfoque clínico del médico
 	
 	
 #### Hospital
 Esta tabla recoge los datos principales del lugar donde se llevará a cabo la consulta médica
 	
 	
-	**ID:** Código de identificación del hospital
+**ID:** Código de identificación del hospital
 	
 	
-	**Nivel:** Grado de gestión clínica característica de un hospital
+**Nivel:** Grado de gestión clínica característica de un hospital
 	
 	
-	**Dirección:** Ubicación exacta del ente donde se llevará a cabo la cita médica
+**Dirección:** Ubicación exacta del ente donde se llevará a cabo la cita médica
 
 ### Relaciones
 #### Prescripción-medicamento
 Esta tabla describe la información compartida entre la tabla de prescripción y la de medicamento.
 	
 	
-	**ID prescripción:** Clave primaria que indica la receta hecha por el médico
+**ID prescripción:** Clave primaria que indica la receta hecha por el médico
 	
 	
-	**ID medicamento:** Identificador de los medicamentos que se incluyen en la prescripción.
+**ID medicamento:** Identificador de los medicamentos que se incluyen en la prescripción.
+
+
 #### Médico-hospital
 Esta tabla describe la información compartida entre la tabla de médico y la tabla hospital. 
 	
 	
-	**ID médico:** Clave primaria de los médicos que se encuentran en este hospital
+**ID médico:** Clave primaria de los médicos que se encuentran en este hospital
 	
 	
-	**ID hospital:** Índice del hospital
+**ID hospital:** Índice del hospital
 ___
 ## Conclusiones:
 ⋅⋅* Para poder realizar una base de datos óptima, es necesario tener claro los conceptos que se derivan de los datos que se manejarán, teniendo un buen nivel de manejo del área
