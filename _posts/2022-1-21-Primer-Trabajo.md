@@ -114,7 +114,7 @@ Esta tabla contendrá información sobre el medicamento que deberá tomar el pac
 **Nombre:** Nombre mediante el cual pueda ser adquirido en farmacias u hospitales. 
 	
 	
-#### <span style="color: red"> Médico </span>.
+#### <span style="color: red"> Médico </span>
 Esta tabla contiene información relevante del médico que atendió la cita de un paciente y que posteriormente realizará una prescripción médica.
 	
 	
