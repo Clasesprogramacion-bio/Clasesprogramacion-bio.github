@@ -36,7 +36,7 @@ dónde deberá remitirse para ser atendido.
 En el diagrama se observan las entidades y sus respectivas relaciones que se manejarán en la base de datos según el equipo de trabajo lo consideró necesario:
 
 
-![Diagrama](https://github.com/Clasesprogramacion-bio/Clasesprogramacion-bio.github.io/tree/master/images/diag.jpeg "Diagrama de identidades y relaciones")
+![Diagrama](https://github.com/Clasesprogramacion-bio/Clasesprogramacion-bio.github.io/tree/master/images/diag.jpeg)
 
 
 Con el fin de conocer los componente del proceso, a continuación se hará una breve descripción de los mismos:
@@ -169,11 +169,11 @@ Esta tabla describe la información compartida entre la tabla de médico y la ta
 
 
 ## Conclusiones:
-⋅⋅* Para poder realizar una base de datos óptima, es necesario tener claro los conceptos que se derivan de los datos que se manejarán, teniendo un buen nivel de manejo del área
+*	Para poder realizar una base de datos óptima, es necesario tener claro los conceptos que se derivan de los datos que se manejarán, teniendo un buen nivel de manejo del área
 al que se apunta, es más fácil definir las entidades y las relaciones que existen entre estas.
-⋅⋅* Con un correcto esquema de diseño previo de la base de datos, es más fácil entrar en materia de construcción en Software y también es fácil luego la manipulación de los datos
+*	Con un correcto esquema de diseño previo de la base de datos, es más fácil entrar en materia de construcción en Software y también es fácil luego la manipulación de los datos
 en la programación del filtrado, búsqueda y alimentación de la información.
-⋅⋅* La digitalización de la información facilita su manipulación, además de brindar seguridad y estabilidad difícilmente lograda con el archivo de recursos físicos.
+*	La digitalización de la información facilita su manipulación, además de brindar seguridad y estabilidad difícilmente lograda con el archivo de recursos físicos.
 
 
 ---------------------------------------
