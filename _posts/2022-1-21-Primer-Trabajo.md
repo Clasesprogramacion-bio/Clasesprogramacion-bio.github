@@ -6,23 +6,23 @@ title: PRIMER TRABAJO
 La aparición de las herramientas informáticas ha facilitado muchas funciones cotidianas y de labor científica, además de representar ventajoso en cuanto a comunicación y seguridad
 de la información, en el caso concreto de las bases de datos virtuales, han evolucionada hasta el punto de permitir almacenar una gran cantidad de información haciendo fácil y 
 seguro su acceso y registro en comparación con métodos más arcaicos que en su mayoría incluían gasto de abundante papel con el riesgo inminente de pérdida de información debido 
-a humedad, envejecimiento e incendios, además de la claramente tediosa tarea que representaba la búsqueda y filtrado de los datos almacenados de esta forma. La pandemia declarada 
-por la COVID-19 ha acelerado la transición a modalidades virtuales en todos los campos que se pueda imaginar, siendo de especial relevancia el médico. Un logro de esto es la 
-telemedicina que, si bien data desde hace casi un siglo (las primeras consultas médicas realizadas por vía telefónica) [1], es cada día más relevante debido a la agilidad, 
-comodidad, ahorro en tiempo y dinero que supone para los usuarios y, principalmente, la cobertura de este servicio que puede extenderse a zonas periféricas de reducido e incluso 
-inexistente acceso a la medicina por otros medios haciéndose hincapié en su necesidad para algunos países en vía de desarrollo que carecen de la infraestructura y cultura necesaria
-para llevarla a cabo [2]. El presente trabajo pretende por medio de software crear una plataforma que permita, en una fase inicial, el agendamiento y seguimiento de citas médicas 
-que busca beneficiar a los usuarios del sistema médico tanto en su rol de practicantes como de pacientes a fin de facilitar la gestión de información.
+a humedad, envejecimiento e incendios, además de la claramente tediosa tarea que representaba la búsqueda y filtrado de los datos almacenados de esta forma. 
 
+La pandemia declarada por la COVID-19 ha acelerado la transición a modalidades virtuales en todos los campos que se pueda imaginar, siendo de especial relevancia el médico. 
+Un logro de esto es la telemedicina que, si bien data desde hace casi un siglo (las primeras consultas médicas realizadas por vía telefónica) [1], es cada día más relevante debido a la agilidad, comodidad, ahorro en tiempo y dinero que supone para los usuarios y, principalmente, la cobertura de este servicio que puede extenderse a zonas periféricas de reducido e incluso inexistente acceso a la medicina por otros medios haciéndose hincapié en su necesidad para algunos países en vía de desarrollo que carecen de la infraestructura y cultura necesaria para llevarla a cabo [2]. 
+
+El presente trabajo pretende por medio de software crear una plataforma que permita, en una fase inicial, el agendamiento y seguimiento de citas médicas que busca beneficiar a los usuarios del sistema médico tanto en su rol de practicantes como de pacientes a fin de facilitar la gestión de información.
+___
 ## METODOLOGÍA:
-Inicialmente, y a modo de apoyo, se diseñará un boceto inicial que indique la relación existente entre los datos que se manejarán; esto facilitará su posterior configuración en el
-software gestor de bases de datos MySQL.
+Inicialmente, y a modo de apoyo, se diseñará un boceto inicial que indique la relación existente entre los datos que se manejarán; esto facilitará su posterior configuración en el software gestor de bases de datos MySQL.
+
+
 Se considerará inicialmente las variables que identifican el rol de la persona que accede al sistema de agendamiento de citas identificados por una clave primaria, según esto, 
 se recopilará nombre, apellido y, según el motivo de la consulta o remisión profesional, se asignará una cita con un profesional especializado. De la cita se tendrá en cuenta el 
 espacio y el tiempo en que tendrá lugar según sea el caso; del médico se considerará nombre, apellido y especialidad que posee; el hospital a su vez poseerá su nivel y la 
 dirección en la que se ubica si se dará de forma presencial o de lo contrario se indicará que es virtual junto con el enlace de acceso, esto a fin de informar al usuario a 
 dónde deberá remitirse para ser atendido.
-
+___
 ## Diccionario de datos 
 En el diagrama se observan las entidades y sus respectivas relaciones que se manejarán en la base de datos según el equipo de trabajo lo consideró necesario:
 [Diagrama]({{site.baseurl}}/images/diag.jpeg)"Diagrama de relaciones y entidades"
@@ -80,15 +80,15 @@ Esta tabla describe la información compartida entre la tabla de médico y la ta
 	**ID médico:** Clave primaria de los médicos que se encuentran en este hospital
 	**ID hospital:** Índice del hospital
 
-
+___
 ## Conclusiones:
-..* Para poder realizar una base de datos óptima, es necesario tener claro los conceptos que se derivan de los datos que se manejarán, teniendo un buen nivel de manejo del área
+⋅⋅* Para poder realizar una base de datos óptima, es necesario tener claro los conceptos que se derivan de los datos que se manejarán, teniendo un buen nivel de manejo del área
 al que se apunta, es más fácil definir las entidades y las relaciones que existen entre estas.
-..* Con un correcto esquema de diseño previo de la base de datos, es más fácil entrar en materia de construcción en Software y también es fácil luego la manipulación de los datos
+⋅⋅* Con un correcto esquema de diseño previo de la base de datos, es más fácil entrar en materia de construcción en Software y también es fácil luego la manipulación de los datos
 en la programación del filtrado, búsqueda y alimentación de la información.
-..* La digitalización de la información facilita su manipulación, además de brindar seguridad y estabilidad difícilmente lograda con el archivo de recursos físicos.
-
+⋅⋅* La digitalización de la información facilita su manipulación, además de brindar seguridad y estabilidad difícilmente lograda con el archivo de recursos físicos.
+___
 ## Referencias:
-[1] https://clinic-cloud.com/blog/historia-de-la-telemedicina/
-[2] https://larepublica.es/2020/09/04/la-importancia-de-la-telemedicina-en-nuestros-dias/
+⋅⋅⋅[1] https://clinic-cloud.com/blog/historia-de-la-telemedicina/
+⋅⋅⋅[2] https://larepublica.es/2020/09/04/la-importancia-de-la-telemedicina-en-nuestros-dias/
 
