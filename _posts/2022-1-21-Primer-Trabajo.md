@@ -25,7 +25,7 @@ dónde deberá remitirse para ser atendido.
 ___
 ## Diccionario de datos 
 En el diagrama se observan las entidades y sus respectivas relaciones que se manejarán en la base de datos según el equipo de trabajo lo consideró necesario:
-[Diagrama]({{site.baseurl}}/images/diag.jpeg)"Diagrama de relaciones y entidades"
+[Diagrama]: ({{site.baseurl}}/images/diag.jpeg) "Diagrama de relaciones y entidades"
 Con el fin de conocer los componente del proceso, a continuación se hará una breve descripción de los mismos:
 ### Entidades
 #### Paciente
