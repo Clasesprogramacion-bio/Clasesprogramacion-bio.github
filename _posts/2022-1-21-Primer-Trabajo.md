@@ -167,7 +167,7 @@ Esta tabla describe la información compartida entre la tabla de médico y la ta
 ---------------------------------------
 
 
-[BASE DE DATOS](https://github.com/Clasesprogramacion-bio/Clasesprogramacion-bio.github.io/blob/e0fe78095b5a6a5ae3ead589f729b3e4fbbf1032/images/diag.jpg "DIAGRAMA")
+[BASE DE DATOS](https://drive.google.com/file/d/1_wChDZjA_K-sHMpzvh9avjZ-5fxYLERb/view?usp=sharing)
 
 
 ---------------------------------------
