@@ -34,7 +34,9 @@ dónde deberá remitirse para ser atendido.
 
 ## Diccionario de datos 
 En el diagrama se observan las entidades y sus respectivas relaciones que se manejarán en la base de datos según el equipo de trabajo lo consideró necesario:
-![diag.jpg](https://github.com/Clasesprogramacion-bio/Clasesprogramacion-bio.github.io/blob/e0fe78095b5a6a5ae3ead589f729b3e4fbbf1032/images/diag.jpg)
+
+
+![diag.jpg](https://github.com/Clasesprogramacion-bio/Clasesprogramacion-bio.github.io/blob/e0fe78095b5a6a5ae3ead589f729b3e4fbbf1032/images/diag.jpg)! [DIAGRAMA]<https://github.com/Clasesprogramacion-bio/Clasesprogramacion-bio.github.io/blob/e0fe78095b5a6a5ae3ead589f729b3e4fbbf1032/images/diag.jpg>
 
 
 Con el fin de conocer los componente del proceso, a continuación se hará una breve descripción de los mismos:
