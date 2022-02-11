@@ -1,5 +1,5 @@
 ---
 layout: post
-title: QUINTA CLASE
+title: SEXTA CLASE
 ---
 ### JAVASRIPT II
