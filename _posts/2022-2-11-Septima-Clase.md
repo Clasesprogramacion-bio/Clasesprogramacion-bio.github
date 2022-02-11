@@ -2,4 +2,5 @@
 layout: post
 title: SÉPTIMA CLASE
 ---
-### MONGODB I
+### BASES DE DATOS NO RELACIONALES (NO-SQL DATABASE)
+
