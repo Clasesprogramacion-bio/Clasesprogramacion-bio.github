@@ -28,17 +28,17 @@ title: DÉCIMA CLASE
         <strong>head</strong> , En donde se pone informacion metadata del sistema que como el tipo de caracteres que se usarán (UFT-8), titulo de la paguina y conexiones que esta peuda tener con otras ventanas
       </li>
       <li>
-        <strong>body</strong> , Donse se añarira la informacion que será vista por el usuario
+        <strong>body</strong> , Donde se añadirá la información que será vista por el usuario
       </li>
     </ul>
     <br />
     <p>
-      Tambien aprendimos de nociones basicas del sistema que añade contenido a una paguina
+      Tambien aprendimos de nociones basicas del sistema que añade contenido a una página
     </p>
     <p>Los comandos basicos aprendidos en HTML fueron los siguientes:</p>
     <ul>
       <li>
-          La etiqueta "h#" ingresa un titulo, dependiendo del numero ingresado (De 1 a 6) da importancia al titulo, siendo 1 el mas notorio y reduciendo su tamaño de fuente a medida que el numero incrementa
+          La etiqueta "h#" ingresa un título, dependiendo del número ingresado (De 1 a 6) da importancia al título, siendo 1 el mas notorio y reduciendo su tamaño de fuente a medida que el numero incrementa
       </li>
       <li>
           La etiqueta "p" nos ayuda a ingresar parrafos al sistema
@@ -82,12 +82,12 @@ title: DÉCIMA CLASE
 
         <dt><strong>text-align</strong></dt>
         <dd>
-            Modifica la distribucion del tecto
+            Modifica la distribucion del texto
         </dd>
 
         <dt><strong>font-weight</strong></dt>
         <dd>
-            Especifica el grueso de la linea
+            Especifica el grueso de la línea
         </dd>
     </dl>
 
