@@ -32,6 +32,7 @@ title: DÉCIMA CLASE
       </li>
     </ul>
     <br />
+    // Para poner a prueba lo aprendido, esta entrada fue escrita en HTML
     <p>
       Tambien aprendimos de nociones basicas del sistema que añade contenido a una página
     </p>
