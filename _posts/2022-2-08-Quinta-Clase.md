@@ -4,4 +4,4 @@ title: QUINTA CLASE
 ---
 ### JAVASRIPT I
 esto es un post
-![]({{/images/diag.jpg | relative_url}})
+![prueba](/images/diag.jpg)
