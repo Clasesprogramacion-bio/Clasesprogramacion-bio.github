@@ -65,7 +65,7 @@ diferentes de `0` ó  `false` son intercambiables por `true` en las operaciones 
 - utilizan valores boleanos para decidir qué partes del código ejecutar, el el siguiente ejemplo, la porción del código "1" se ejecutará si `condicion1 === true`
 la porción del código "2" se ejecutará si `condicion2 === true`, la porcion del código "n" se ejecutará si `condicionN === true` y en otro caso se ejecutará la porción
 del código "en otro caso" en el bloque `else`
-`
+```
 if(condicion1){
     // codigo 1
 }
@@ -79,6 +79,6 @@ else if(condicionN){
 else{
     // en otro caso
 }
-` 
+``` 
 - al igual que para las operaciones de comparación, el `0`, `null` y `undefined` son intercambiables por `false` y datos no vacíos
 diferentes de `0` ó  `false` son intercambiables por `true` estructuras de control de flujo.
