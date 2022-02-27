@@ -2,9 +2,9 @@
 layout: post
 title: QUINTA CLASE
 ---
-### JAVASRIPT I
+### JAVASRIPT 1 y 2
 esto es un post
-# desarrollo frontend 1
+# desarrollo frontend 1 y 2, clases 5 y 6
 ### cuales son las tecnologías principales para frontend?
 - html, css, javascript
 ### qué rol toma cada una de esas tecnologías?
