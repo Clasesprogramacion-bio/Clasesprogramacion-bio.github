@@ -33,7 +33,7 @@ y los datos vacíos y no definidos y el 0 se toman como verdaderos
 - null: tipo de dato nulo que se usa para referenciar referencias inexistentes o para inicializar variables
 - Undefined: dato asignado a las variables que no se han definido o inicializado.
 - Number: dato utilizad para representar números entre 
- -(2**53 - 1) y 2**53 -1, los valores especiales del number son +Infinity y -Infinity que representan un número mayor y menor a todos los demás respectivamente y NaN para expresar que el resultado de una operación no retornó un entero, ej: división por 0
+ -(2^53 - 1) y 2^53 -1, los valores especiales del number son +Infinity y -Infinity que representan un número mayor y menor a todos los demás respectivamente y NaN para expresar que el resultado de una operación no retornó un entero, ej: división por 0
 - BigInt: permíte almacenar números enteros grandes con una cierta precisión.
 - symbol: tipo de dato inmutable que se puede usar como llave de objetos
 - String: utilizado para representar caracteres
