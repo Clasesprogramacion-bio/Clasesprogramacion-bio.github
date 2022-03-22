@@ -1,23 +1,23 @@
 ---
 layout: post
-title: QUINTA CLASE
+title: QUINTA Y SEXTA CLASE
 ---
 ### JAVASRIPT 1 y 2
 esto es un post
-# desarrollo frontend 1 y 2, clases 5 y 6
-### cuales son las tecnologías principales para frontend?
+# Desarrollo Frontend I, II
+### ¿Cuáles son las tecnologías principales para frontend?
 - html, css, javascript
-### qué rol toma cada una de esas tecnologías?
+### ¿Qué rol toma cada una de esas tecnologías?
 - html: define la organización del contenido de la página, en qué parte va cada elemento
 - css: se encarga del aspecto estético de la página, tamaños, colores, posiciones, fuentes, etc.
 - javascript: se encarga de aspectos lógicos de la página como resolver cálculos, mandar alertas,
 traer información de otros dominios, etc.
-### fundamentos de javascript
-#### como llamar código de javascript desde el navegador?
+### Fundamentos de javascript
+#### ¿Cómo llamar código de javascript desde el navegador?
 - simplemente debe colocarse la siguiente etiqueta:
 `<script src="js/rutaArchivoJs.js"></script>`
 - en el documento html que se esté abriendo en el navegador.
-#### inicializacion de variables en javascript
+#### Inicializacion de variables en javascript
 - `var variable = 1`
 - las variables definidas con `var` tienen un alcance global, esto significa
 que pueden ser llamadas desde cualquier parte del código.
@@ -26,7 +26,7 @@ que pueden ser llamadas desde cualquier parte del código.
 - `const constante = 1`
 - las "variables" definidas con `const` tienen el mismo alcance que las variables definidas con let, pero no pueden ser modificadas.
 - en general se recomienda definir las variables con `let` ó `const` para limitar el alcance (scope) de las variables y no definir variables globales que se modifiquen de manera involuntaria posteriormente.
-#### tipos de datos primitivos
+#### Tipos de datos primitivos
 - Bolean: true, false, los datos bolean se utilizan para el flujo de las aplicaciones y pueden ser
 el resultado de operaciones de comparación, los datos no vacíos a excepción del 0 se toman como verdaderos
 y los datos vacíos y no definidos y el 0 se toman como verdaderos
@@ -37,7 +37,7 @@ y los datos vacíos y no definidos y el 0 se toman como verdaderos
 - BigInt: permíte almacenar números enteros grandes con una cierta precisión.
 - symbol: tipo de dato inmutable que se puede usar como llave de objetos
 - String: utilizado para representar caracteres
-#### objetos
+#### Objetos
 - tipo de dato compuesto por pares de keys y values qué permite almacenar estructuras complejas en una misma variable, por ejemplo:
 - `let objeto = {
     nombre: "alexander",
@@ -55,13 +55,13 @@ y los datos vacíos y no definidos y el 0 se toman como verdaderos
 - `a <= b`
 - `a == b`: verifica igualdad de valores, por ejemplo `1 == "1"` es verdadero
 - `a === b`: verifica igualdad de valores y de tipos, por ejemplo 
-#### operaciones de comparacion
+#### Operaciones de comparacion
 - `a && b`: devuelve `true` si `a === true` y `b === true`, en otro caso devuelve `false`
 - `a || b`: devuelve `false` si `a === false`
 - `!a`: devuelve `false` si `a === true` o `true` si `a === false`
 - como se mencionó antes, el `0`, `null` y `undefined` son intercambiables por `false` y datos no vacíos
 diferentes de `0` ó  `false` son intercambiables por `true` en las operaciones de comparación.
-#### control de flujo
+#### Control de flujo
 - utilizan valores boleanos para decidir qué partes del código ejecutar, el el siguiente ejemplo, la porción del código "1" se ejecutará si `condicion1 === true`
 la porción del código "2" se ejecutará si `condicion2 === true`, la porcion del código "n" se ejecutará si `condicionN === true` y en otro caso se ejecutará la porción
 del código "en otro caso" en el bloque `else`
