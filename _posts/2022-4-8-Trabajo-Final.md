@@ -77,7 +77,7 @@ En una imagen de Vagrant y usando Docker como plataforma contenedora y haciendo 
 También se utilizará *POSTMAN* una herramienta de fácil uso y altamente útil para el desarrollo backend en la verificación de la ejecución de estos métodos observando la respuesta HTTP/1.1 que genere la interacción con la WEB.
 
 
-[<img src="{{ site.baseurl }}/images/createpaciente.jpeg" style="width: 400px;"/>]
+<img src="{{ site.baseurl }}/images/createpaciente.jpeg" style="width: 400px;"/>
 ---------------------------------------
 ## CONCLUSIONES:
 - A
