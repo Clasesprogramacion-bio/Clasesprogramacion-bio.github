@@ -79,43 +79,76 @@ En una imagen de Vagrant y usando Docker como plataforma contenedora y haciendo 
 También se utilizará *POSTMAN* una herramienta de fácil uso y altamente útil para el desarrollo backend en la verificación de la ejecución de estos métodos observando la respuesta HTTP/1.1 que genere la interacción con la WEB.
 
 
-<img src="{{ site.baseurl }}/images/createpaciente.jpeg" style="width: 520;"/>
+<img src="{{ site.baseurl }}/images/createpaciente.jpeg" style="width: 480;"/>
 
 
-<img src="{{ site.baseurl }}/images/createpostman.jpeg" style="width: 520;"/>
+<img src="{{ site.baseurl }}/images/createpostman.jpeg" style="width: 480;"/>
 
 
-<img src="{{ site.baseurl }}/images/respuestacreatepostman.jpeg" style="width: 520;"/>
+<img src="{{ site.baseurl }}/images/respuestacreatepostman.jpeg" style="width: 480;"/>
 
 
-<img src="{{ site.baseurl }}/images/readpaciente.jpeg" style="width: 520;"/>
+<img src="{{ site.baseurl }}/images/readpaciente.jpeg" style="width: 480;"/>
 
 
-<img src="{{ site.baseurl }}/images/readpostman.jpeg" style="width: 520;"/>
+<img src="{{ site.baseurl }}/images/readpostman.jpeg" style="width: 480;"/>
 
 
-<img src="{{ site.baseurl }}/images/respuestareadpostman.jpeg" style="width: 520;"/>
+<img src="{{ site.baseurl }}/images/respuestareadpostman.jpeg" style="width: 480;"/>
 
 
-<img src="{{ site.baseurl }}/images/updatepaciente.jpeg" style="width: 520;"/>
+<img src="{{ site.baseurl }}/images/updatepaciente.jpeg" style="width: 480;"/>
 
 
-<img src="{{ site.baseurl }}/images/updatepostman.jpeg" style="width: 520;"/>
+<img src="{{ site.baseurl }}/images/updatepostman.jpeg" style="width: 480;"/>
 
 
-<img src="{{ site.baseurl }}/images/respuestaupdatepostman.jpeg" style="width: 520;"/>
+<img src="{{ site.baseurl }}/images/respuestaupdatepostman.jpeg" style="width: 480;"/>
 
 
-<img src="{{ site.baseurl }}/images/deletepaciente.jpeg" style="width: 520;"/>
+<img src="{{ site.baseurl }}/images/deletepaciente.jpeg" style="width: 480;"/>
 
 
-<img src="{{ site.baseurl }}/images/deletepostman.jpeg" style="width: 520;"/>
+<img src="{{ site.baseurl }}/images/deletepostman.jpeg" style="width: 480;"/>
 
 
-<img src="{{ site.baseurl }}/images/respuestadeletepostman.jpeg" style="width: 520;"/>
+<img src="{{ site.baseurl }}/images/respuestadeletepostman.jpeg" style="width: 480;"/>
 
 
+<img src="{{ site.baseurl }}/images/createmedico.jpeg" style="width: 480;"/>
 
+
+<img src="{{ site.baseurl }}/images/createpostman.jpeg" style="width: 480;"/>
+
+
+<img src="{{ site.baseurl }}/images/respuestacreatepostman.jpeg" style="width: 480;"/>
+
+
+<img src="{{ site.baseurl }}/images/readmedico.jpeg" style="width: 480;"/>
+
+
+<img src="{{ site.baseurl }}/images/readpostmanmed.jpeg" style="width: 480;"/>
+
+
+<img src="{{ site.baseurl }}/images/respuestareadpostmanmed.jpeg" style="width: 480;"/>
+
+
+<img src="{{ site.baseurl }}/images/updatemedico.jpeg" style="width: 480;"/>
+
+
+<img src="{{ site.baseurl }}/images/updatepostmanmed.jpeg" style="width: 480;"/>
+
+
+<img src="{{ site.baseurl }}/images/respuestaupdatepostmanmed.jpeg" style="width: 480;"/>
+
+
+<img src="{{ site.baseurl }}/images/deletemedico.jpeg" style="width: 480;"/>
+
+
+<img src="{{ site.baseurl }}/images/deletepostmanmed.jpeg" style="width: 480;"/>
+
+
+<img src="{{ site.baseurl }}/images/respuestadeletepostmanmed.jpeg" style="width: 480;"/>
 ---------------------------------------
 ## CONCLUSIONES:
 - A
