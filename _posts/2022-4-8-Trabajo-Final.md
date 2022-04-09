@@ -18,7 +18,7 @@ Algunas de las respuestas que podemos encontrar al ejecutar una acción que se r
 - 100 Continue
 - 101 Switching Protocols
 - 103 Early Hints
-- **200 OK** *más común**
+- **200 OK** *más común*
 - 201 Created
 - 202 Accepted
 - 203 Non-Authoritative Information
@@ -69,7 +69,6 @@ Algunas de las respuestas que podemos encontrar al ejecutar una acción que se r
 - 508 Loop Detected
 - 510 Not Extended
 - 511 Network Authentication Required
-
 El presente trabajo tiene como propósito integrar lo aprendido a lo largo del curso de Programación WEB respecto al diseño de una página de internet que brinde servicio de agendamiento y seguimiento de citas médicas guardando información relacionada con el personal médico profesional, los usuarios en calidad de paciente y una reseña de su historial en citas médicas cuyo desarrollo Frontend y registro/implementación de bases de datos fue llevado a cabo en anteriores trabajos, por lo que este escrito se interezará en la exploración del desarrollo Backend que permitirá la comunicación "detrás" de la página con el servidor.
 ---------------------------------------
 ## METODOLOGÍA:
