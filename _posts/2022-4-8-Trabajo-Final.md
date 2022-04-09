@@ -226,7 +226,7 @@ Se observa que funciona correctamente
 
 <img src="{{ site.baseurl }}/images/respuestadeletepostmanmed.jpeg" style="width: 480;"/>
 
-### Despliegue en Vagranty Docker
+### Despliegue en Vagrant y Docker
 Para poder desplegar correctamente la aplicación en el ambiente Vagrant que implementa una imagen que simula un sistema operativo virtual y Docker como el contenedor que genera recursos
 - Copiar en la carpeta de la aplicacion los archivos de vagrantfile y docker-compose.yml.
     * *vagrantfile* contiene la información de la máquina virtual en la que va a existir la aplicación.
