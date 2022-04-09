@@ -251,6 +251,6 @@ En este momento, la aplicación está lista para ser utilizada.
 ---------------------------------------
 ## REPOSITORIO
 El repositorio se puede consultar en el siguiente
-[github](https://github.com/Clasesprogramacion-bio/proyecto4)
+[GitHub](https://github.com/Clasesprogramacion-bio/proyecto4)
 
 La función principal se consulta en el archivo *app.py*
