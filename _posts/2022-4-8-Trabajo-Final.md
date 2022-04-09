@@ -69,6 +69,8 @@ Algunas de las respuestas que podemos encontrar al ejecutar una acción que se r
 - 508 Loop Detected
 - 510 Not Extended
 - 511 Network Authentication Required
+
+
 El presente trabajo tiene como propósito integrar lo aprendido a lo largo del curso de Programación WEB respecto al diseño de una página de internet que brinde servicio de agendamiento y seguimiento de citas médicas guardando información relacionada con el personal médico profesional, los usuarios en calidad de paciente y una reseña de su historial en citas médicas cuyo desarrollo Frontend y registro/implementación de bases de datos fue llevado a cabo en anteriores trabajos, por lo que este escrito se interezará en la exploración del desarrollo Backend que permitirá la comunicación "detrás" de la página con el servidor.
 
 
@@ -233,7 +235,11 @@ Para poder desplegar correctamente la aplicación en el ambiente Vagrant que imp
 - Utilizar *vagrant ssh* para ingresar a la terminal de la máquina virtual creada en el paso anterior.
 - *cd /vagrant/* para ingresar al espacio en el que va a existir la aplicación.
 - Ejecutar docker-compose up para crear un container que funcione como servidor y tenga todos los requisitos de un determinado servicio de la aplicación.
+
+
 En este momento, la aplicación está lista para ser utilizada.
+
+
 ---------------------------------------
 ## CONCLUSIONES:
 - Flask es un framework que premite realizar una abstraccion del protocolo http para montar un servidor utilizando simples funciones de python. mientras que postman utiliza ese mismo protocolo para realizar peticiones a servidores web, en este caso, el que creamos con flask.
