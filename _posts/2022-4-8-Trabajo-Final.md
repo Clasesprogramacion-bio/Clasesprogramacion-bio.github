@@ -151,9 +151,10 @@ También se utilizará *POSTMAN* una herramienta de fácil uso y altamente útil
 <img src="{{ site.baseurl }}/images/respuestadeletepostmanmed.jpeg" style="width: 480;"/>
 ---------------------------------------
 ## CONCLUSIONES:
-- A
-- B
-- C
+- Flask es un framework que premite realizar una abstraccion del protocolo http para montar un servidor utilizando simples funciones de python. mientras que postman utiliza ese mismo protocolo para realizar peticiones a servidores web, en este caso, el que creamos con flask.
+- Vagrant permitio montar una maquina virtual en la terminal de comandos, mientras que docker permitio containerizar y gestionar las dependencias dentro de la maquina virtual.
+- El protocolo HTTP permite el envio de informacion por medio de la url (como en el metodo GET), por medio del body de la peticion (como en el metodo POST) o por medio de ambos (como pasa en el metodo PUT).
+- En aplicaciones web se utilizan intermediarios, en este caso postman represento un cliente, o el frontend de una aplicacion web y la aplicacion en python genero un servidor que al que postman realizaba peticiones. ademas, pymongo fue utilizado por el servidor para gestionar la conexion a la base de datos pymongo
 
 
 ---------------------------------------
