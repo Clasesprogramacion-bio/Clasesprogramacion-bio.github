@@ -224,6 +224,16 @@ Se observa que funciona correctamente
 
 <img src="{{ site.baseurl }}/images/respuestadeletepostmanmed.jpeg" style="width: 480;"/>
 
+### Despliegue en Vagranty Docker
+Para poder desplegar correctamente la aplicación en el ambiente Vagrant que implementa una imagen que simula un sistema operativo virtual y Docker como el contenedor que genera recursos
+- Copiar en la carpeta de la aplicacion los archivos de vagrantfile y docker-compose.yml.
+    * *vagrantfile* contiene la información de la máquina virtual en la que va a existir la aplicación.
+    * *docker-compose.yml* contiene los requerimientos del container que va a contener un servicio de la aplicación.
+- En la ventana de símbolos del sistema en Windows o consola de comandos de preferencia, utilizar el comando *vagrant up* para montar la máquina virtual.
+- Utilizar *vagrant ssh* para ingresar a la terminal de la máquina virtual creada en el paso anterior.
+- *cd /vagrant/* para ingresar al espacio en el que va a existir la aplicación.
+- Ejecutar docker-compose up para crear un container que funcione como servidor y tenga todos los requisitos de un determinado servicio de la aplicación.
+En este momento, la aplicación está lista para ser utilizada.
 ---------------------------------------
 ## CONCLUSIONES:
 - Flask es un framework que premite realizar una abstraccion del protocolo http para montar un servidor utilizando simples funciones de python. mientras que postman utiliza ese mismo protocolo para realizar peticiones a servidores web, en este caso, el que creamos con flask.
