@@ -79,76 +79,102 @@ En una imagen de Vagrant y usando Docker como plataforma contenedora y haciendo 
 También se utilizará *POSTMAN* una herramienta de fácil uso y altamente útil para el desarrollo backend en la verificación de la ejecución de estos métodos observando la respuesta HTTP/1.1 que genere la interacción con la WEB.
 
 
+### Implementación de métodos CRUD
+De la siguiente manera generamos la función para realizar un CREATE de pacientes en la base de datos
 <img src="{{ site.baseurl }}/images/createpaciente.jpeg" style="width: 480;"/>
 
 
+Haciendo uso de *POSTMAN* comprobaremos el funcionamiento de dicha función generando una entrada de datos en pacientes
 <img src="{{ site.baseurl }}/images/createpostman.jpeg" style="width: 480;"/>
 
 
+*POSTMAN* devuelve los datos ingresados indicando el funcionamiento correcto de la función (HTTP 200)
 <img src="{{ site.baseurl }}/images/respuestacreatepostman.jpeg" style="width: 480;"/>
 
 
+Generamos la función para el READ de los datos existentes
 <img src="{{ site.baseurl }}/images/readpaciente.jpeg" style="width: 480;"/>
 
 
+Implementamos en *POSTMAN* el método GET
 <img src="{{ site.baseurl }}/images/readpostman.jpeg" style="width: 480;"/>
 
 
+Obtenemos la respuesta esperada
 <img src="{{ site.baseurl }}/images/respuestareadpostman.jpeg" style="width: 480;"/>
 
 
+El método UPDATE nos permite actualizar información existente
 <img src="{{ site.baseurl }}/images/updatepaciente.jpeg" style="width: 480;"/>
 
 
+Implementado en *POSTMAN*
 <img src="{{ site.baseurl }}/images/updatepostman.jpeg" style="width: 480;"/>
 
 
+Evidenciamos la respuesta que se programó, indicando que los datos se actualizaron
 <img src="{{ site.baseurl }}/images/respuestaupdatepostman.jpeg" style="width: 480;"/>
 
 
+Finalmente generamos la función que elimina datos de paciente DELETE
 <img src="{{ site.baseurl }}/images/deletepaciente.jpeg" style="width: 480;"/>
 
 
+Se aplica en *POSTMAN* para ver su respuesta
 <img src="{{ site.baseurl }}/images/deletepostman.jpeg" style="width: 480;"/>
 
 
+Se confirma eliminación de los datos, se cierra la conexión
 <img src="{{ site.baseurl }}/images/respuestadeletepostman.jpeg" style="width: 480;"/>
 
 
+Ahora recrearemos dichos métodos para actualizar la colección de médicos, comenzamos por el POST o CREATE
 <img src="{{ site.baseurl }}/images/createmedico.jpeg" style="width: 480;"/>
 
 
+Verificado en *POSTMAN*
 <img src="{{ site.baseurl }}/images/createpostman.jpeg" style="width: 480;"/>
 
 
+Arroja una operación con éxito, escribiendo los datos
 <img src="{{ site.baseurl }}/images/respuestacreatepostman.jpeg" style="width: 480;"/>
 
 
+Método GET o READ
 <img src="{{ site.baseurl }}/images/readmedico.jpeg" style="width: 480;"/>
 
 
+En *POSTMAN*
 <img src="{{ site.baseurl }}/images/readpostmanmed.jpeg" style="width: 480;"/>
 
 
+Respuesta OK
 <img src="{{ site.baseurl }}/images/respuestareadpostmanmed.jpeg" style="width: 480;"/>
 
 
+UPDATE de médicos
 <img src="{{ site.baseurl }}/images/updatemedico.jpeg" style="width: 480;"/>
 
 
+Implementación en *POSTMAN*
 <img src="{{ site.baseurl }}/images/updatepostmanmed.jpeg" style="width: 480;"/>
 
 
+HTTP 200:OK
 <img src="{{ site.baseurl }}/images/respuestaupdatepostmanmed.jpeg" style="width: 480;"/>
 
 
+Finalizamos con el método DELETE
 <img src="{{ site.baseurl }}/images/deletemedico.jpeg" style="width: 480;"/>
 
 
+Se evidencia su funcionamiento en *POSTMAN*
 <img src="{{ site.baseurl }}/images/deletepostmanmed.jpeg" style="width: 480;"/>
 
 
+Se observa que funciona correctamente
 <img src="{{ site.baseurl }}/images/respuestadeletepostmanmed.jpeg" style="width: 480;"/>
+
 ---------------------------------------
 ## CONCLUSIONES:
 - Flask es un framework que premite realizar una abstraccion del protocolo http para montar un servidor utilizando simples funciones de python. mientras que postman utiliza ese mismo protocolo para realizar peticiones a servidores web, en este caso, el que creamos con flask.
