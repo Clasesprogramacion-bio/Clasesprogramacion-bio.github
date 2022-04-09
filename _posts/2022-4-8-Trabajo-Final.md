@@ -70,6 +70,8 @@ Algunas de las respuestas que podemos encontrar al ejecutar una acción que se r
 - 510 Not Extended
 - 511 Network Authentication Required
 El presente trabajo tiene como propósito integrar lo aprendido a lo largo del curso de Programación WEB respecto al diseño de una página de internet que brinde servicio de agendamiento y seguimiento de citas médicas guardando información relacionada con el personal médico profesional, los usuarios en calidad de paciente y una reseña de su historial en citas médicas cuyo desarrollo Frontend y registro/implementación de bases de datos fue llevado a cabo en anteriores trabajos, por lo que este escrito se interezará en la exploración del desarrollo Backend que permitirá la comunicación "detrás" de la página con el servidor.
+
+
 ---------------------------------------
 ## METODOLOGÍA:
 En una imagen de Vagrant y usando Docker como plataforma contenedora y haciendo uso de Python con su módulo Flask, se desarrollarán las funciones pertinentes para los distintos métodos CRUD en la base de datos (MongoDB) del servidor WEB, esto para poder manipular los datos de pacientes y sus respectivas citas médicas dados los datos fijos de médicos y hospitales, para ello, como se evidenciará en el código, se Crearán, leeRán, actUalizarán y Descartarán campos de datos referidos a estas colecciones mencionadas.
@@ -77,7 +79,43 @@ En una imagen de Vagrant y usando Docker como plataforma contenedora y haciendo 
 También se utilizará *POSTMAN* una herramienta de fácil uso y altamente útil para el desarrollo backend en la verificación de la ejecución de estos métodos observando la respuesta HTTP/1.1 que genere la interacción con la WEB.
 
 
-<img src="{{ site.baseurl }}/images/createpaciente.jpeg" style="width: 400px;"/>
+<img src="{{ site.baseurl }}/images/createpaciente.jpeg" style="width: 520;"/>
+
+
+<img src="{{ site.baseurl }}/images/createpostman.jpeg" style="width: 520;"/>
+
+
+<img src="{{ site.baseurl }}/images/respuestacreatepostman.jpeg" style="width: 520;"/>
+
+
+<img src="{{ site.baseurl }}/images/readpaciente.jpeg" style="width: 520;"/>
+
+
+<img src="{{ site.baseurl }}/images/readpostman.jpeg" style="width: 520;"/>
+
+
+<img src="{{ site.baseurl }}/images/respuestareadpostman.jpeg" style="width: 520;"/>
+
+
+<img src="{{ site.baseurl }}/images/updatepaciente.jpeg" style="width: 520;"/>
+
+
+<img src="{{ site.baseurl }}/images/updatepostman.jpeg" style="width: 520;"/>
+
+
+<img src="{{ site.baseurl }}/images/respuestaupdatepostman.jpeg" style="width: 520;"/>
+
+
+<img src="{{ site.baseurl }}/images/deletepaciente.jpeg" style="width: 520;"/>
+
+
+<img src="{{ site.baseurl }}/images/deletepostman.jpeg" style="width: 520;"/>
+
+
+<img src="{{ site.baseurl }}/images/respuestadeletepostman.jpeg" style="width: 520;"/>
+
+
+
 ---------------------------------------
 ## CONCLUSIONES:
 - A
