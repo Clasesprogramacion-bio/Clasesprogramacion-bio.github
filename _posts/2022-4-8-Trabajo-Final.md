@@ -18,7 +18,7 @@ Algunas de las respuestas que podemos encontrar al ejecutar una acción que se r
 - 100 Continue
 - 101 Switching Protocols
 - 103 Early Hints
-- **200 OK** *más común*
+- **200 OK** *más común**
 - 201 Created
 - 202 Accepted
 - 203 Non-Authoritative Information
@@ -77,6 +77,8 @@ En una imagen de Vagrant y usando Docker como plataforma contenedora y haciendo 
 
 También se utilizará *POSTMAN* una herramienta de fácil uso y altamente útil para el desarrollo backend en la verificación de la ejecución de estos métodos observando la respuesta HTTP/1.1 que genere la interacción con la WEB.
 
+
+![Alt text](https://assets.digitalocean.com/articles/alligator/boo.svg "a title")
 ---------------------------------------
 ## CONCLUSIONES:
 - A
